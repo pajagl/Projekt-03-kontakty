@@ -27,10 +27,11 @@ h1 {
 
 	.osoba {
 		text-align: center;
-		border: 1px solid;
+		border: 1px solid lightgray;
 		border-radius: 3%;
 		padding: 1%;
 		margin: 1%;
+		box-shadow: rgb(115, 161, 163) 0px 1px 2px;
 	}
 }
 
@@ -39,10 +40,11 @@ h1 {
 @media (min-width: 540px) and (max-width: 960px) {
 	img {
 		border-radius: 50%;
+		width: 165%;
 	}
 
 	.foto {
-		margin: 5%;
+		margin: 7%;
 	}
 
 	.tym {
@@ -57,8 +59,9 @@ h1 {
 		margin: 1%;
 		flex-direction: row;
 		flex-basis: 45%;
-		border: 1px solid;
+		border: 1px solid lightgray;
 		border-radius: 3%;
+		box-shadow: rgb(115, 161, 163) 0px 1px 2px;
 	}
 
 	.popis {
@@ -86,9 +89,10 @@ h1 {
 		flex-direction: column;
 		align-items: center;
 		flex-basis: 25%;
-		border: 1px solid;
+		border: 1px solid lightgray;
 		border-radius: 10%;
 		text-align: center;
+		box-shadow: rgb(115, 161, 163) 0px 1px 2px;
 	}
 }
 
