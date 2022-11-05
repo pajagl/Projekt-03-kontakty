@@ -8,3 +8,87 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+h1 {
+	text-align: center;
+}
+
+/* PC šířka 960px a víc */
+
+@media (min-width: 960px) {
+	img {
+		border-radius: 50%;
+	}
+
+	.tym {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.osoba {
+		text-align: center;
+		border: 1px solid;
+		border-radius: 3%;
+		padding: 1%;
+		margin: 1%;
+	}
+}
+
+/* Tablet šířka maximálně 959px */
+
+@media (min-width: 540px) and (max-width: 960px) {
+	img {
+		border-radius: 50%;
+	}
+
+	.foto {
+		margin: 5%;
+	}
+
+	.tym {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.osoba {
+		display: flex;
+		padding: 0.5%;
+		margin: 1%;
+		flex-direction: row;
+		flex-basis: 45%;
+		border: 1px solid;
+		border-radius: 3%;
+	}
+
+	.popis {
+		padding: 5%;
+	}
+}
+
+/* Mobil šířka maximálně 540px */
+@media (max-width: 540px) {
+	img {
+		border-radius: 50%;
+		width: 100%;
+	}
+
+	.tym {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.osoba {
+		padding: 5%;
+		margin: 2%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-basis: 25%;
+		border: 1px solid;
+		border-radius: 10%;
+		text-align: center;
+	}
+}
+
